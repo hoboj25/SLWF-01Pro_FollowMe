@@ -26,7 +26,7 @@ The Senville Leto series uses a **proprietary USB port** that may seem incompati
 **To connect:**
 1. Use a flathead screwdriver to carefully pry open the sides of the USB port
 2. Gently wiggle the SLWF-01Pro into the port
-3. Look for the **blue light** on the SLWF-01Pro to blink - this confirms connection
+3. Look for the **blue light** on the SLWF-01Pro to blink - this confirms connectionhttps://github.com/hoboj25/SLWF-01Pro_FollowMe/blob/main/README.md#L56C27
 4. The module won't feel 100% seated, but if the blue light blinks and it doesn't fall out easily, you're good
 
 > **Warning:** Do not force the connection. If you see the blue light, it's working.
@@ -47,13 +47,13 @@ Unscrew the USB WiFi port board from the unit. You can leave the SLWF-01Pro plug
 #### 2c. Identify the Rec 1 OUT Pin
 Locate the IR receiver on the display board. The **OUT pin** is typically the leftmost pin (by itself), but verify this on your specific board before soldering.
 
-![Display Board](images/display_port.jpeg)
+![Display Board](display_port.jpeg)
 *Red arrow: Wire harness connector | Orange arrow: Rec 1 OUT pin*
 
 #### 2d. Solder Wire to SLWF-01Pro
 Solder a wire to the **FOLLOW ME [IO13]** pin on the back of the SLWF-01Pro board.
 
-![SLWF-01Pro Board](images/slwf01pro_board.jpeg)
+![SLWF-01Pro Board](lwf01pro_board.jpeg)
 *Yellow arrow: IO13 Follow Me pin with soldered wire*
 
 **Wire Tip:** Use a single solid conductor from Cat6 cable:
@@ -169,3 +169,4 @@ Found an issue or have improvements? Feel free to open an issue or submit a pull
 ## License
 
 MIT License - Feel free to use and modify this guide.
+
