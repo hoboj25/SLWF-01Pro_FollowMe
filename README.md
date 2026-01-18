@@ -13,7 +13,7 @@ This guide covers the Senville Leto series but should work for other Midea-based
 | Item | Notes |
 |------|-------|
 | SLWF-01Pro | Wi-Fi module from SMLIGHT |
-| Soldering iron | Basic skills required ([Example on Amazon](https://www.amazon.com/dp/B087767KNW)) |
+| Soldering iron | Basic skills required (Here is the kit i puchased: [Example on Amazon](https://www.amazon.com/dp/B087767KNW)) |
 | Thin wire | Cat6 cable works well (single solid conductor) |
 | External temperature sensor | Configured in Home Assistant (e.g., Zooz ZSE11 Q Sensor) |
 
@@ -53,7 +53,7 @@ Locate the IR receiver on the display board. The **OUT pin** is typically the le
 #### 2d. Solder Wire to SLWF-01Pro
 Solder a wire to the **FOLLOW ME [IO13]** pin on the back of the SLWF-01Pro board.
 
-![SLWF-01Pro Board](lwf01pro_board.jpeg)
+![SLWF-01Pro Board](slwf01pro_board.jpeg)
 *Yellow arrow: IO13 Follow Me pin with soldered wire*
 
 **Wire Tip:** Use a single solid conductor from Cat6 cable:
@@ -169,4 +169,5 @@ Found an issue or have improvements? Feel free to open an issue or submit a pull
 ## License
 
 MIT License - Feel free to use and modify this guide.
+
 
